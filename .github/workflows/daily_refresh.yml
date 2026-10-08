@@ -1,9 +1,6 @@
 name: Daily inventory aging refresh
 
 on:
-  schedule:
-    # 02:00 UTC = 06:00 Dubai (UTC+4, no daylight saving)
-    - cron: "0 2 * * *"
   workflow_dispatch: {}
 
 jobs:
